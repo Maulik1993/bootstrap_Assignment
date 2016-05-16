@@ -39,8 +39,7 @@ ul.unstyled{
 
 /* Nav Bar */
 #searchInput{
-margin-left: 250px;
-	width: 400px;
+	width: 200px;
 }
 
 .navbar-brand{
@@ -149,7 +148,10 @@ margin-left: 250px;
 
 /*layout*/
 
+#spacing{
 
+	padding-top: 20px;
+}
 #features {
 
 	text-align: center;
@@ -165,4 +167,8 @@ footer{
 	color:#eee;
 	font-size: 11px;
 	padding: 20px;
+}
+
+#inputMessage{
+	margin-bottom: 15px;
 }

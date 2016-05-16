@@ -6,7 +6,7 @@
   <meta name="description" content="">
 
   <!-- Mobile viewport optimized -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 <!-- Bootstrap CSS -->
 <link href="bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
@@ -106,7 +106,7 @@
 
   					<ul class="dropdown-menu">
   						<li>
-  							<a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
+  							<a href="#"><span class="glyphicon glyphicon-wrench"></span> Maulik</a>
   						</li>
 
   						<li>
@@ -114,13 +114,14 @@
   						</li>
 
   						<li>
-  							<a href="#"><span class="glyphicon glyphicon-briefcase"></span> Billing</a>
+  							<a href="#myModal" data-toggle="modal"><span class="glyphicon glyphicon-briefcase"></span>Customer Care</a>
   						</li>
 
   						<li class="divider"></li>
 
   						<li>
   							<a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a>
+
   						</li>
   					</ul>
   				</li>
@@ -175,7 +176,7 @@
 
 
 
-      <div class="well well-small visible-sm">
+      <div class="well-small visible-sm">
         <a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span>  Give us Call</a>
       </div>
         <div class="well">
@@ -247,7 +248,115 @@
 
 
   <div class="row" id="moreInfo">
+    <div class="col-sm-6">
+      <h3 style="color:black"> Help...!</h3>
+      <div class="tabbable">
+      	<ul class="nav nav-tabs">
+      		<li class="active"><a href="#tab1" data-toggle="tab">Location</a></li>
+      		<li><a href="#tab2" data-toggle="tab">About us</a></li>
+      	</ul>
+      	<div class="tab-content">
+      		<div class="tab-pane active" id="tab1">
+      			<h4><span class="glyphicon glyphicon-map-marker"></span> Our Location <small>More like our favourite surf spot</small></h4>
 
+      		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.163182856604!2d77.63321931435314!3d12.897226519996606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae14be966da48b%3A0xfbf47c43d70f5f0a!2sSurya+Nissan!5e0!3m2!1sen!2sin!4v1463408013153" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+      			<p id="spacing">Shopping on shoptimize.com
+What is it like to shop on shoptimize you ask? Well, let's make it simple for you. Say you have to buy a baby shower present for your expecting friend, all you need to do in log into shoptimize.com and browse through the countless gifting options available for you. And that's not all, you can have the product of your choice gift wrapped with your own personalized message and have it delivered right to your friend's doorstep</p>
+
+      			<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> -->
+      		</div><!-- end tab-pane -->
+
+      		<div class="tab-pane" id="tab2">
+      			<h4>Online Shopping By <small>Shoptimize..!</small></h4>
+
+      			<img src="images/online1.jpg" class="thumbnail pull-left" alt="Placeholder image" width="550px" height="200px">
+
+      		<p>Enjoy delightful prices
+For 'Every Wish Fulfilled' to happen, we at Flipkart understand that prices can put you off. And that is why we have round-the-clock discounts and amazing prices for you to enjoy. With options like Deals-of-the-Day, find products such as apparel, toys, refrigerators, air-conditioners and healthy and beauty products at unbelievably low prices.
+
+Happy and safe shopping every time
+When you log into Flipkart.com, you will find that all the fun elements of shopping in malls have been exceptionally replicated. The easy-to-use interface that includes filters, compare options, buying guides, interactive descriptions and reviews, you'll see that shopping on Flipkart is fun and easy.
+<p>
+      			<hr>
+
+      			<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Click for a Query</a>
+
+            <div class="modal fade" id="myModal">
+            	<div class="modal-dialog">
+            		<div class="modal-content">
+            			<div class="modal-header">
+            				<button class="close" data-dismiss="modal">&times;</button>
+
+            				<h4 class="modal-title">Help Cnter</h4>
+            			</div><!-- end modal-header -->
+            			<div class="modal-body">
+            				<h4>Assistance at your finger tips</h4>
+
+            				<p>You can ask to our assistance regarding product and tracking detail.</p>
+
+
+
+            				<hr>
+
+            				<p><small class="text-muted">Write your Query Below..!</small></p>
+
+            				<form class="form-horizontal">
+            					<div class="form-group">
+            						<label class="col-lg-2 control-label" for="inputName">Name</label>
+            						<div class="col-lg-10">
+            							<input class="form-control" id="inputName" placeholder="Name" type="text">
+            						</div>
+            					</div>
+
+            					<div class="form-group">
+            						<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+            						<div class="col-lg-10">
+            							<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+            						</div>
+            					</div>
+
+            					<div class="form-group">
+            						<label class="col-lg-2 control-label" for="inputMessage">Query</label>
+            						<div class="col-lg-10">
+            							<textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+            							<button class="btn btn-success pull-right" type="submit">Send!</button>
+            						</div>
+            					</div>
+            				</form>
+            			</div><!-- end modal-body -->
+
+            			<div class="modal-footer">
+            				<button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button class="btn btn-primary" type="button">Save changes</button>
+            			</div><!-- end modal-footer -->
+            		</div><!-- end modal-content -->
+            	</div><!-- end modal-dialog -->
+            </div><!-- end myModal -->
+      		</div><!-- end tab-pane -->
+      	</div><!-- end tab-content -->
+      </div><!-- end tabbable -->
+    </div> <!-- end of col-sn-6 -->
+
+    <div class="col-sm-6">
+      <h3>More about Shoptimize</h3>
+      <p>At shoptimize, our vision is to be Earth's most customer centric company; to build a place where people can come to find and discover virtually anything they want to buy online. With shoptimize.in, we endeavor to build that same destination in India by giving customers more of what they want – vast selection, low prices, fast and reliable delivery, and a trusted and convenient online shopping experience – and provide sellers a world-class e-commerce platform. We are committed to ensure 100% Purchase Protection for your shopping done on shoptimize.in so that you can benefit from a safe and secure online ordering experience, convenient payment options such as cash on delivery, easy returns and enjoy a completely hassle free online shopping experience. </p>
+
+
+      <div class="list-group">
+        <a href="#" class="list-group-item">
+          <h4 class="list-group-item-headng">Security, Privacy &amp; Accessibility</h4>
+          <p class="list-group-item-text">Legal-Information</p>
+        </a>
+        <a href="#" class="list-group-item">
+          <h4 class="list-group-item-headng">Carrer</h4>
+          <p class="list-group-item-text">Upload your resume at Shoptimizer.com</p>
+        </a>
+        <a href="#" class="list-group-item">
+          <h4 class="list-group-item-headng">Download App</h4>
+          <p class="list-group-item-text">Download Apps from google play store and get discounts and offer.</p>
+        </a>
+      </div><!--div list group -->
+    </div><!-- end col-sm-6 -->
   </div><!-- end moreInfo -->
 
 
